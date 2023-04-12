@@ -2,13 +2,13 @@ function init(){
 //add your javascrip between these two lines of code
 var button = document.getElementById('elementid')
 
-function ShowText (){
+function ShowText(){
   var textbox = document.getElementById('enterinput')
-  document.getElementById(elementid).innerHTML=textbox.ariaValueMax;
-  alert("Lida Jiang:" + textbox.value);
+  document.getElementById(elementid).innerHTML=textbox.value
+  alert('Lida Jiang:' + textbox.value)
 }
 
-button.addEventListener(click, ShowText);
+button.addEventListener(click, ShowText)
 
 
 
